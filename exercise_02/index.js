@@ -1,4 +1,4 @@
-import getTotalWordsFromString from './getTotalWordsFromString.js';
+import getTotalWordsFromString from "./getTotalWordsFromString.js";
 
-console.log(getTotalWordsFromString('Hello World'));
-console.log(getTotalWordsFromString('Hello World, I am a sentence'));
+console.log(getTotalWordsFromString("Hello World"));
+console.log(getTotalWordsFromString("Hello World, I am a sentence"));

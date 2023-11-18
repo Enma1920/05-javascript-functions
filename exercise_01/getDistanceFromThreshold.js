@@ -12,8 +12,7 @@
  * @returns number
  */
 const getDistanceFromThreshold = function (value, threshold) {
-    
-    return Math.abs(value - threshold);
+  return Math.abs(value - threshold);
 };
 
 export default getDistanceFromThreshold;
