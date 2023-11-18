@@ -4,3 +4,19 @@
  * input: number (threshold)
  * output: boolean
  */
+
+/**
+ * Check whether one number is greater than a given number
+ * 
+ * @param {number} value
+ * @param {number} threshold
+ * @returns boolean
+ */
+
+function isGreaterThan(value, threshold) {
+    const result= value > threshold? true : false;
+
+    return result;
+}
+
+export default isGreaterThan;
