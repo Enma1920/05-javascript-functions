@@ -14,7 +14,8 @@
  */
 
 function isGreaterThan(value, threshold) {
-  const result = value > threshold ? true : false;
+  
+  const result = value > threshold;
 
   return result;
 }

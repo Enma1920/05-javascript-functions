@@ -12,8 +12,8 @@
  */
 
 function checkCollectionHasElements(collection) {
-  const isEmpty = collection.length == 0 ? true : false;
-  return isEmpty;
+  const hasElements = collection.length !== 0;
+  return hasElements;
 }
 
 export default checkCollectionHasElements;
