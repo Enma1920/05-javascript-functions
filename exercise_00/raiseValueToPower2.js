@@ -11,7 +11,7 @@
 /**
  * Raise one number to power of two
  * @param {number} base
- * @returns number
+ * @returns number raised to power of two
  */
 const raiseValueToPower2 = function (base) {
   const result = Math.pow(base, 2);
