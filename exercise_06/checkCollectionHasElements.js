@@ -11,9 +11,8 @@
  * @returns boolean
  */
 
-function checkCollectionHasElements(collection) {
-  const hasElements = collection.length !== 0;
-  return hasElements;
+const checkCollectionHasElements =function (collection) {
+  return collection.length !== 0;
 }
 
 export default checkCollectionHasElements;
