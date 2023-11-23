@@ -14,9 +14,7 @@
  */
 
 function isAdditionGreaterThanFifty(summand1, summand2) {
-
   return summand1 + summand2 >= 50;
-  
 }
 
 export default isAdditionGreaterThanFifty;

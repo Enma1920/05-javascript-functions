@@ -9,21 +9,21 @@ import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
 
 /**
  * Check number of words contained in a given string, and retur uppercase or lowercase string depending on the total number of words
- * @param {string} sentence 
- * @returns {string} resultSentence 
+ * @param {string} sentence
+ * @returns {string} resultSentence
  */
 
-const formatStringByWordsLength = function(sentence){
+const formatStringByWordsLength = function (sentence) {
+  let resultSentence = "";
 
-   let resultSentence = "";
+  const numberWords = getTotalWordsFromString(sentence);
 
-   const numberWords = getTotalWordsFromString(sentence);
+  numberWords > 5
+    ? (resultSentence = sentence.toUpperCase())
+    : (resultSentence = sentence.toLowerCase());
 
-   numberWords > 5 ? resultSentence = sentence.toUpperCase() : resultSentence = sentence.toLowerCase();
-
-   return resultSentence;
-
-}
+  return resultSentence;
+};
 
 export default formatStringByWordsLength;
 

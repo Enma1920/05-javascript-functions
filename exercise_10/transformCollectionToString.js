@@ -8,15 +8,13 @@ import checkCollectionToString from "../exercise_06/checkCollectionHasElements.j
  */
 /**
  * Tranform collection into string
- * @param {Array} collection 
+ * @param {Array} collection
  * @returns string
  */
 
-const transformCollectionToString = function(collection){
-
-   return checkCollectionToString(collection) ? collection.join(' | ') : '';
-
-}
+const transformCollectionToString = function (collection) {
+  return checkCollectionToString(collection) ? collection.join(" | ") : "";
+};
 
 export default transformCollectionToString;
 /**

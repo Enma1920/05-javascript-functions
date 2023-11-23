@@ -6,7 +6,7 @@ import transformCollectionToString from "./transformCollectionToString.js";
  * input: ['apple', 'grapes', 'strawberries']
  * output: "apple | grapes | strawberries"
  */
-console.log(transformCollectionToString(['apple', 'grapes', 'strawberries'])); // "apple | grapes | strawberries"
+console.log(transformCollectionToString(["apple", "grapes", "strawberries"])); // "apple | grapes | strawberries"
 /**
  * CASE #2
  * input: []

@@ -1,7 +1,6 @@
 //imports
 import getDistanceMessageFromSumTo100 from "./getDistanceMessageFromSumTo100.js";
 
-
 /**
  * CASE #1
  * input: 70

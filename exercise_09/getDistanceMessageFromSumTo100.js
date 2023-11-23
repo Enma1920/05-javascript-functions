@@ -14,17 +14,15 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
  * @param {number} number
  * @returns {string} message
  */
-const getDistanceMessageFromSumTo100 = function(number){
+const getDistanceMessageFromSumTo100 = function (number) {
+  const randomNumber = generateRandomNumberInRange(100);
+  const sum = randomNumber + number;
+  const distanceNumber = getDistanceFromThreshold(sum, 100);
 
-    const randomNumber = generateRandomNumberInRange(100);
-    const sum = randomNumber + number;
-    const distanceNumber = getDistanceFromThreshold(sum,100);
-
-    return sum > 100 ? `Sum with value ${sum} exceeds in ${distanceNumber} from number 100`
+  return sum > 100
+    ? `Sum with value ${sum} exceeds in ${distanceNumber} from number 100`
     : `Sum with value ${sum} is left in ${distanceNumber} from number 100`;
-
-}
-
+};
 
 export default getDistanceMessageFromSumTo100;
 /**

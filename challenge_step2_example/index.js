@@ -9,4 +9,3 @@ console.log(result2); // 🔴
 
 const result3 = emitSanction(120, 120);
 console.log(result3);
-
