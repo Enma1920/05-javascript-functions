@@ -7,17 +7,6 @@ import checkCollectionToString from "../exercise_06/checkCollectionHasElements.j
  * output: string
  */
 /**
- * Tranform collection into string
- * @param {Array} collection
- * @returns string
- */
-
-const transformCollectionToString = function (collection) {
-  return checkCollectionToString(collection) ? collection.join(" | ") : "";
-};
-
-export default transformCollectionToString;
-/**
  * CASE #1
  * input: ['apple', 'grapes', 'strawberries']
  * output: "apple | grapes | strawberries"
@@ -28,3 +17,14 @@ export default transformCollectionToString;
  * input: []
  * output: ""
  */
+/**
+ * Tranform collection into string
+ * @param {Array} collection
+ * @returns string
+ */
+
+const transformCollectionToString = function (collection) {
+  return checkCollectionToString(collection) ? collection.join(" | ") : "";
+};
+
+export default transformCollectionToString;

@@ -6,6 +6,16 @@ import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
  * input: string (sentence) 
  * output: string
  */
+/**
+ * CASE #1
+ * input: "This is a long, long, long sentence."
+ * output: "THIS IS A LONG, LONG, LONG SENTENCE."
+ */
+
+/**
+ * CASE #2 * input: "This is short one."
+ * output: "this is short one."
+ */
 
 /**
  * Check number of words contained in a given string, and retur uppercase or lowercase string depending on the total number of words
@@ -26,14 +36,3 @@ const formatStringByWordsLength = function (sentence) {
 };
 
 export default formatStringByWordsLength;
-
-/**
- * CASE #1
- * input: "This is a long, long, long sentence."
- * output: "THIS IS A LONG, LONG, LONG SENTENCE."
- */
-
-/**
- * CASE #2 * input: "This is short one."
- * output: "this is short one."
- */
